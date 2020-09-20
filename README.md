@@ -7,10 +7,9 @@ Design a front-end for Google Search, Google Image Search, and Google Advanced S
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
+Install the project locally
 ```bash
-
+git clone https://github.com/SenayYakut/Search.git
 ```
 
 ## Usage
