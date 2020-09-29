@@ -1,14 +1,50 @@
-.grid {
-    display: inline-grid;
-    padding: 20px;
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
-    grid-template-columns: 200px 200px auto;
+/*body {
+    color: #3FA7D6;
+    font-family: "Fjalla One", Arial;
+}
+
+form {
+    line-height: 25px;
+}
+
+input {
+    border-radius: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    overflow: break;
+}
+
+.overlay {
+    display: block;
+}
+*/
+
+form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+    margin-top: 30%;
+}
+
+input {
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+.overlay {
     text-align: center;
 }
 
-flex {}
+#otherPages {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
 
-@mediaquery {}
-
-twitter bootstrap {}
+#otherPages a {
+    text-decoration: none;
+}
