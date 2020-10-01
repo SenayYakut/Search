@@ -29,22 +29,35 @@ form {
     margin-top: 30%;
 }
 
-input {
+form>input {
     border-radius: 40px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .overlay {
     text-align: center;
 }
 
-#otherPages {
+nav ul {
+    display: inline;
     text-align: right;
-    margin: 10px;
-    padding: 10px;
-    font-size: 30px;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color: blue;
+    font-size: 46;
 }
 
 #otherPages a {
     text-decoration: none;
+}
+
+ul a {
+    float: right;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 26px;
 }
