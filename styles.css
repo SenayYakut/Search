@@ -1,4 +1,4 @@
-/*body {
+                /*body {
     color: #3FA7D6;
     font-family: "Fjalla One", Arial;
 }
@@ -20,7 +20,75 @@ h1 {
     display: block;
 }
 */
-
+                
+                html,
+                body,
+                div,
+                span,
+                applet,
+                object,
+                iframe,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                p,
+                blockquote,
+                pre,
+                a,
+                abbr,
+                acronym,
+                address,
+                big,
+                cite,
+                code,
+                del,
+                dfn,
+                em,
+                font,
+                img,
+                ins,
+                kbd,
+                q,
+                s,
+                samp,
+                small,
+                strike,
+                strong,
+                sub,
+                sup,
+                tt,
+                var,
+                dl,
+                dt,
+                dd,
+                ol,
+                ul,
+                li,
+                fieldset,
+                form,
+                label,
+                legend,
+                table,
+                caption,
+                tbody,
+                tfoot,
+                thead,
+                tr,
+                th,
+                td {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font-weight: inherit;
+                    font-style: inherit;
+                    font-size: 100%;
+                    vertical-align: baseline;
+                    text-decoration: none;
+                }
+                /*
 form {
     text-align: center;
     line-height: 30px;
@@ -29,7 +97,7 @@ form {
     margin-top: 30%;
 }
 
-form>input {
+.overlay>form {
     border-radius: 40px;
     font-size: 20px;
 }
@@ -42,12 +110,6 @@ nav ul {
     display: inline;
     text-align: right;
     list-style-type: none;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Architects Daughter', cursive;
-    color: blue;
 }
 
 #otherPages a {
@@ -75,3 +137,113 @@ form h1 {
 ul a {
     margin-right: 10px;
 }
+
+.advance>form {
+    text-align: left;
+    font-family: arial, sans-serif;
+}
+
+#appbar {
+    color: #d93025;
+    font-size: 20px;
+    float: left;
+}
+
+.otByu {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.dat {
+    margin-left: 10px;
+}
+
+#box {
+    width: 100%;
+}
+*/
+                /*              nav li {
+                    display: table-cell
+                }
+                
+                nav ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    display: table;
+                    width: 100%;
+                }
+                
+                li a {
+                    display: block;
+                    color: black;
+                    text-align: right;
+                    padding: 30px 30px;
+                    text-decoration: none;
+                }
+                
+                h1 {
+                    text-align: center;
+                    font-size: 50px;
+                    color: red;
+                }
+                
+                main form {
+                    margin-left: 10px;
+                    display: block;
+                    width: 100%;
+                }
+                
+                #adv {
+                    background-color: blue;
+                    color: white;
+                    height: 30px;
+                    margin: 10px;
+                    width: 150px;
+                }
+                
+                body {
+                    font-size: 20px;
+                }
+                
+                h1 {
+                    font-size: 3em;
+                    overflow: break;
+                }
+                
+                .overlay {
+                    width: 80%;
+                    min-width: 30%;
+                    margin: 5% auto;
+                    display: block;
+                    padding: 2%;
+                    height: 90vh;
+                    background-color: rgba(255, 255, 255, 0.9);
+                    border-radius: 40px;
+                    text-align: left;
+                }
+                
+                form {
+                    line-height: 25px;
+                }
+                
+                * {
+                    box-sizing: border-box;
+                }
+                
+                input[type=text],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    resize: vertical;
+                }
+                
+                label {
+                    padding: 12px 12px 12px 0;
+                    display: inline-block;
+                
+ */
