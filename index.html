@@ -1,24 +1,52 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Search</title>
-        <link type="text/css" rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-      <nav class="pages">
-        <ul>
-          <li><a href="/image.html">Image</a></li>
-          <li><a href="/advanced.html">Advance</a></li>
-        </ul>  
-      </nav>
-      <section class="overlay">
-        <form action="https://google.com/search" method="GET">
-            <input type="text" name="q">
-            <br>
-            <input type="submit" value="Google Search">
-        </form>
-      </section>    
-    </body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     @media screen and (min-width: 600px) {
+       .overlay {
+                width: 80%;
+                min-width: 30%;
+                margin: 5% auto;
+                display: block;
+                padding: 2%;
+                height: 90vh;
+                background-color: rgba(255, 255, 255, 0.9);
+                border-radius: 40px;
+                text-align: center;
+           }      
+     }
+     
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a class="right" href="/advanced.html">Advanced</a></li>
+        <li><a id="right" href="/image.html">Images</a></li>
+      </ul> 
+    </nav>
+    <br>
+    <br>
+    <section class="overlay">
+      <img src="https://techcrunch.com/wp-content/uploads/2015/10/screen-shot-2015-10-08-at-4-20-16-pm.png?w=730&crop=1"style="width:50%;">
+      <form action="https://google.com/search" method="GET">
+        <input type="text" id="first" name="q">
+        <br>
+        <br>
+				<input class="sub" type="submit" class="sub" value="Google Search">
+        <input class="sub" type="submit" class="sub" value="I'm Feeling Lucky">
+        <br>
+        <!--Add the pattern attribute to the input below-->
+      </form>
+    </section>
+  </body>
 </html>
+
 
