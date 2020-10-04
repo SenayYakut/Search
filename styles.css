@@ -1,4 +1,4 @@
-                /*body {
+            /*body {
     color: #3FA7D6;
     font-family: "Fjalla One", Arial;
 }
@@ -20,75 +20,74 @@ h1 {
     display: block;
 }
 */
-                
-                html,
-                body,
-                div,
-                span,
-                applet,
-                object,
-                iframe,
-                h1,
-                h2,
-                h3,
-                h4,
-                h5,
-                h6,
-                p,
-                blockquote,
-                pre,
-                a,
-                abbr,
-                acronym,
-                address,
-                big,
-                cite,
-                code,
-                del,
-                dfn,
-                em,
-                font,
-                img,
-                ins,
-                kbd,
-                q,
-                s,
-                samp,
-                small,
-                strike,
-                strong,
-                sub,
-                sup,
-                tt,
-                var,
-                dl,
-                dt,
-                dd,
-                ol,
-                ul,
-                li,
-                fieldset,
-                form,
-                label,
-                legend,
-                table,
-                caption,
-                tbody,
-                tfoot,
-                thead,
-                tr,
-                th,
-                td {
-                    margin: 0;
-                    padding: 0;
-                    border: 0;
-                    font-weight: inherit;
-                    font-style: inherit;
-                    font-size: 100%;
-                    vertical-align: baseline;
-                    text-decoration: none;
-                }
-                /*
+            
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            font,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-weight: inherit;
+                font-style: inherit;
+                font-size: 100%;
+                vertical-align: baseline;
+            }
+            /*
 form {
     text-align: center;
     line-height: 30px;
@@ -162,7 +161,7 @@ ul a {
     width: 100%;
 }
 */
-                /*              nav li {
+            /*              nav li {
                     display: table-cell
                 }
                 
@@ -175,8 +174,8 @@ ul a {
                     width: 100%;
                 }
                 
-                li a {
-                    display: block;
+  li a {
+                                  display: block;
                     color: black;
                     text-align: right;
                     padding: 30px 30px;
@@ -247,3 +246,20 @@ ul a {
                     display: inline-block;
                 
  */
+            
+            nav a {
+                text-decoration: none;
+            }
+            
+            #ad {
+                float: right;
+                margin-right: 20px;
+            }
+            
+            .pages li {
+                text-align: right;
+            }
+            
+            .overlay {
+                text-align: center;
+            }
