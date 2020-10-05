@@ -161,7 +161,7 @@ ul a {
     width: 100%;
 }
 */
-            /*              nav li {
+            /*  nav li {
                     display: table-cell
                 }
                 
@@ -175,7 +175,7 @@ ul a {
                 }
                 
   li a {
-                                  display: block;
+                 display: block;
                     color: black;
                     text-align: right;
                     padding: 30px 30px;
@@ -320,9 +320,9 @@ ul a {
                 border: transparent;
             }
 
-#lucy{
+           #lucy  {
             border-radius: 0;
                 background-color: #f1f1f1;
                 height: 40px;
                 border: transparent;
-}
+           }
