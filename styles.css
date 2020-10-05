@@ -327,3 +327,9 @@ ul a {
                 height: 40px;
                 border: transparent;
            }
+
+
+       .overlay>form {
+          border-radius: 40px;
+          font-size: 20px;
+}
