@@ -15,11 +15,8 @@ git clone https://github.com/SenayYakut/Search.git
 ```
 
 ## Usage
-
-```python
-
-
-```
+Go to this  
+https://senayyakut.github.io/Search/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
