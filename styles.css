@@ -262,7 +262,7 @@ ul a {
             body {
                 color: #3FA7D6;
                 font-family: "Fjalla One", Arial;
-                font-size:25px;
+                font-size:20px;
             }
             
             form {
@@ -271,7 +271,7 @@ ul a {
             }
             
             #first {
-                border-radius: 40px;
+               
                 width: 70%;
                 height: 40px;
                 margin-top: 0;
