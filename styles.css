@@ -329,7 +329,6 @@ ul a {
            }
 
 
-       .overlay>form {
-          border-radius: 40px;
-          font-size: 20px;
-}
+           .overlay#first {
+                border-radius: 30px;
+            }
