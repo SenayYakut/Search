@@ -314,7 +314,7 @@ ul a {
                 text-decoration: none;
             }
             
-            .sub {
+            input.sub {
                 border-radius: 30px;
                 background-color: #f1f1f1;
                 height: 40px;
