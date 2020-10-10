@@ -94,7 +94,7 @@ ul a {
     width: 100%;
 }
 */
-            /*              nav li {
+            /*  nav li {
                     display: table-cell
                 }
                 
@@ -108,7 +108,7 @@ ul a {
                 }
                 
   li a {
-                                  display: block;
+                 display: block;
                     color: black;
                     text-align: right;
                     padding: 30px 30px;
@@ -249,7 +249,11 @@ ul a {
             
             #ad {
                 text-align: right;
+<<<<<<< HEAD
                 margin-right: 10px;
+=======
+                margin-right:10px;
+>>>>>>> 13c236e41fca4e39856dcf0a37bc6d8ea2930984
             }
             
             .pages li {
@@ -263,7 +267,11 @@ ul a {
             body {
                 color: #3FA7D6;
                 font-family: "Fjalla One", Arial;
+<<<<<<< HEAD
                 font-size: 25px;
+=======
+                font-size:25px;
+>>>>>>> 13c236e41fca4e39856dcf0a37bc6d8ea2930984
             }
             
             form {
@@ -272,7 +280,11 @@ ul a {
             }
             
             #first {
+<<<<<<< HEAD
                 border-radius: 30px;
+=======
+               
+>>>>>>> 13c236e41fca4e39856dcf0a37bc6d8ea2930984
                 width: 70%;
                 height: 40px;
                 margin-top: 0;
@@ -280,6 +292,11 @@ ul a {
                 padding-top: 0;
             }
             
+<<<<<<< HEAD
+=======
+            
+            
+>>>>>>> 13c236e41fca4e39856dcf0a37bc6d8ea2930984
             .overlay {
                 width: 80%;
                 min-width: 30%;
@@ -315,10 +332,18 @@ ul a {
             }
             
             .sub {
+                border-radius: 0px;
+                background-color: #f1f1f1;
+                height: 40px;
+                border: transparent;
+            }
+
+           #lucy  {
                 border-radius: 0;
                 background-color: #f1f1f1;
                 height: 40px;
                 border: transparent;
+<<<<<<< HEAD
             }
             
             #lucy {
@@ -331,3 +356,10 @@ ul a {
             .overlay#first {
                 border-radius: 30px;
             }
+=======
+           }
+           
+          .overlay{
+                border-radius: 30px;
+            }
+>>>>>>> 13c236e41fca4e39856dcf0a37bc6d8ea2930984
