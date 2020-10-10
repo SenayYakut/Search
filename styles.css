@@ -20,73 +20,6 @@ h1 {
     display: block;
 }
 */
-            
-            html,
-            body,
-            div,
-            span,
-            applet,
-            object,
-            iframe,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            p,
-            blockquote,
-            pre,
-            a,
-            abbr,
-            acronym,
-            address,
-            big,
-            cite,
-            code,
-            del,
-            dfn,
-            em,
-            font,
-            img,
-            ins,
-            kbd,
-            q,
-            s,
-            samp,
-            small,
-            strike,
-            strong,
-            sub,
-            sup,
-            tt,
-            var,
-            dl,
-            dt,
-            dd,
-            ol,
-            ul,
-            li,
-            fieldset,
-            form,
-            label,
-            legend,
-            table,
-            caption,
-            tbody,
-            tfoot,
-            thead,
-            tr,
-            th,
-            td {
-                margin: 0;
-                padding: 0;
-                border: 0;
-                font-weight: inherit;
-                font-style: inherit;
-                font-size: 100%;
-                vertical-align: baseline;
-            }
             /*
 form {
     text-align: center;
@@ -247,8 +180,76 @@ ul a {
                 
  */
             
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            font,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-weight: inherit;
+                font-style: inherit;
+                font-size: 100%;
+                vertical-align: baseline;
+            }
+            
             #ad {
                 text-align: right;
+                margin-right: 10px;
             }
             
             .pages li {
@@ -262,22 +263,22 @@ ul a {
             body {
                 color: #3FA7D6;
                 font-family: "Fjalla One", Arial;
+                font-size: 25px;
             }
             
             form {
                 line-height: 25px;
-                font-size: 20px;
+                font-size: 25px;
             }
             
             #first {
-                border-radius: 40px;
+                border-radius: 30px;
                 width: 70%;
                 height: 40px;
                 margin-top: 0;
                 border-color: #f1f1f1;
+                padding-top: 0;
             }
-            
-            .sub {}
             
             .overlay {
                 width: 80%;
@@ -318,4 +319,15 @@ ul a {
                 background-color: #f1f1f1;
                 height: 40px;
                 border: transparent;
+            }
+            
+            #lucy {
+                border-radius: 0;
+                background-color: #f1f1f1;
+                height: 40px;
+                border: transparent;
+            }
+            
+            .overlay#first {
+                border-radius: 30px;
             }
