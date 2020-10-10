@@ -329,6 +329,6 @@ ul a {
 
            }
            
-          .overlay{
+          .overlay#first{
                 border-radius: 30px;
             }
