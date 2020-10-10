@@ -249,6 +249,7 @@ ul a {
             
             #ad {
                 text-align: right;
+                margin-right:10px;
             }
             
             .pages li {
@@ -262,12 +263,12 @@ ul a {
             body {
                 color: #3FA7D6;
                 font-family: "Fjalla One", Arial;
-                font-size:20px;
+                font-size:25px;
             }
             
             form {
                 line-height: 25px;
-                font-size: 20px;
+                font-size: 25px;
             }
             
             #first {
@@ -278,7 +279,7 @@ ul a {
                 border-color: #f1f1f1;
             }
             
-            .sub {}
+            
             
             .overlay {
                 width: 80%;
@@ -314,21 +315,20 @@ ul a {
                 text-decoration: none;
             }
             
-            form input.sub {
-                border-radius: 30px;
+            .sub {
+                border-radius: 0px;
                 background-color: #f1f1f1;
                 height: 40px;
                 border: transparent;
             }
 
            #lucy  {
-            border-radius: 0;
+                border-radius: 0;
                 background-color: #f1f1f1;
                 height: 40px;
                 border: transparent;
            }
-
-
-           form#first {
+           
+          .overlay{
                 border-radius: 30px;
             }
