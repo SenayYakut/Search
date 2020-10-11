@@ -253,9 +253,6 @@ td {
 
 #ad {
     text-align: right;
-    <<<<<<< HEAD margin-right: 10px;
-    =======margin-right: 10px;
-    >>>>>>>13c236e41fca4e39856dcf0a37bc6d8ea2930984
 }
 
 .pages li {
@@ -269,9 +266,6 @@ td {
 body {
     color: #3FA7D6;
     font-family: "Fjalla One", Arial;
-    <<<<<<< HEAD font-size: 25px;
-    =======font-size: 25px;
-    >>>>>>>13c236e41fca4e39856dcf0a37bc6d8ea2930984
 }
 
 form {
@@ -280,15 +274,15 @@ form {
 }
 
 #first {
-    <<<<<<< HEAD border-radius: 30px;
-    =======>>>>>>>13c236e41fca4e39856dcf0a37bc6d8ea2930984 width: 70%;
+    border-radius: 30px;
+    width: 70%;
     height: 40px;
     margin-top: 0;
     border-color: #f1f1f1;
     padding-top: 0;
 }
 
-<<<<<<< HEAD=======>>>>>>>13c236e41fca4e39856dcf0a37bc6d8ea2930984 .overlay {
+.overlay {
     width: 80%;
     min-width: 30%;
     margin: 10% auto;
@@ -322,32 +316,26 @@ li a {
     text-decoration: none;
 }
 
-.sub {
+.sub #lucy {
     border-radius: 0px;
     background-color: #f1f1f1;
     height: 40px;
     border: transparent;
 }
 
-#lucy {
+#imsearch {
     border-radius: 0;
     background-color: #f1f1f1;
     height: 40px;
     border: transparent;
-    <<<<<<< HEAD
+    width: 20%;
 }
 
-#lucy {
-    border-radius: 0;
-    background-color: #f1f1f1;
+#second {
+    border-radius: 30px;
+    width: 70%;
     height: 40px;
-    border: transparent;
-}
-
-.overlay#first {
-    border-radius: 30px;
-}
-
-.overlay#second {
-    border-radius: 30px;
+    margin-top: 0;
+    border-color: #f1f1f1;
+    padding-top: 0;
 }
