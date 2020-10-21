@@ -184,73 +184,6 @@ ul a {
                 
  */
 
-HEAD html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-
 #ad {
     text-align: right;
 }
@@ -266,11 +199,6 @@ td {
 body {
     color: #3FA7D6;
     font-family: "Fjalla One", Arial;
-}
-
-form {
-    line-height: 25px;
-    font-size: 25px;
 }
 
 #first {
@@ -321,14 +249,6 @@ li a {
     background-color: #f1f1f1;
     height: 40px;
     border: transparent;
-}
-
-#imsearch {
-    border-radius: 0;
-    background-color: #f1f1f1;
-    height: 40px;
-    border: transparent;
-    width: 20%;
 }
 
 #second {
@@ -439,6 +359,14 @@ form {
     padding-top: 0;
 }
 
+#imsearch {
+    border-radius: 0px;
+    background-color: #f1f1f1;
+    height: 40px;
+    border: transparent;
+    width: 20%;
+}
+
 .overlay {
     width: 80%;
     min-width: 30%;
@@ -473,18 +401,17 @@ li a {
     text-decoration: none;
 }
 
-.sub {
+.sub,
+#lucy {
     border-radius: 0px;
     background-color: #f1f1f1;
     height: 40px;
     border: transparent;
+    width: 20%;
 }
 
-#lucy {
-    border-radius: 0;
-    background-color: #f1f1f1;
-    height: 40px;
-    border: transparent;
+#second {
+    border-radius: 30px;
 }
 
 .overlay#first {
