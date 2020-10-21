@@ -411,7 +411,8 @@ li a {
 }
 
 #second {
-    border-radius: 30px;
+    -webkit-border-radius
+: 30px;
 }
 
 .overlay#first {
