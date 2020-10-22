@@ -418,14 +418,18 @@ li a {
 }
 
 #second {
-    border-radius: 30px;
+    -webkit-border-radius
+: 30px;
 }
 
 .overlay#first {
     border-radius: 30px;
 }
+<<<<<<< HEAD
 
 .row label {
     font-size: 16px;
     color: black;
 }
+=======
+>>>>>>> 7eeceb31621fb4686fb7df8fc41dd48a75597b5b
