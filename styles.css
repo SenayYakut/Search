@@ -198,7 +198,8 @@ ul a {
 
 body {
     color: #3FA7D6;
-    font-family: "Fjalla One", Arial;
+    font-family: arial, sans-serif;
+    ;
 }
 
 #first {
@@ -206,7 +207,7 @@ body {
     width: 70%;
     height: 40px;
     margin-top: 0;
-    border-color: #f1f1f1;
+    border-color: black;
     padding-top: 0;
 }
 
@@ -236,6 +237,7 @@ nav li {
     display: table-cell;
     text-decoration: none;
     width: 10px;
+    margin-bottom: 0;
 }
 
 li a {
@@ -327,9 +329,10 @@ td {
     vertical-align: baseline;
 }
 
-#ad {
+div#ad {
     text-align: right;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .pages li {
@@ -342,7 +345,7 @@ td {
 
 body {
     color: #3FA7D6;
-    font-family: "Fjalla One", Arial;
+    font-family: "Arial", sans-serif;
     font-size: 25px;
 }
 
@@ -416,4 +419,9 @@ li a {
 
 .overlay#first {
     border-radius: 30px;
+}
+
+.row label {
+    font-size: 16px;
+    color: black;
 }
